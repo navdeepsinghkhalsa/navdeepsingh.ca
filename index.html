@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Navdeep Singh</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <style>
     html,
     body {
@@ -22,19 +23,35 @@
       position: absolute;
       text-align: center;
       top: 50%;
-      transform: translateY(-50%);
+      transform: translateY(calc(-50% - 0.25em));
       width: 100%;
     }
     h1 {
       color: #fff;
       font-family: 'Roboto', sans-serif;
       font-weight: 100;
+      margin: 0.5em 0;
+    }
+    a {
+      color: #fff;
+      display: inline-block;
+      margin: 0 0.5em 0.5em;
+    }
+    .wrapper,
+    h1,
+    a {
+      font-size: 32px;
     }
   </style>
 </head>
 <body>
   <div class="wrapper">
     <h1>Navdeep Singh</h1>
+    <div class="wrapper__links">
+      <a href="https://github.com/navdeepsinghkhalsa" target="_blank"><i class="fa fa-fw fa-github"></i></a>
+      <a href="http://www.vegansikhgeek.com" target="_blank"><i class="fa fa-fw fa-wordpress"></i></a>
+      <a href="https://www.linkedin.com/in/navdeepsinghkhalsa" target="_blank"><i class="fa fa-fw fa-linkedin"></i></a>
+    </div>
   </div>
 </body>
 </html>
